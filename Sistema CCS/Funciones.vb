@@ -255,7 +255,7 @@ Public Class Alertas
             'aquiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
             correo.From = New MailAddress("ccs.notificaciones@ccscontactcenter.com", "SISTEMA DE GESTION", System.Text.Encoding.UTF8)
             correo.To.Add(Destinatario)
-            correo.CC.Add(Copia)
+            correo.CC.Add(Copia & ",pablo.paez@ccscontactcenter.com, karla.hernandez@ccsolutions.com.mx")
             correo.Bcc.Add("ccs.notificaciones@ccscontactcenter.com")
             correo.SubjectEncoding = System.Text.Encoding.UTF8
             correo.Subject = Asunto
